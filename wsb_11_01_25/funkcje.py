@@ -66,4 +66,4 @@ print(album1)
 print(album2)
 print(album3)
 
-# konflict
+# połaczony komentarz
