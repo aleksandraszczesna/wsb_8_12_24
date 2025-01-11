@@ -65,3 +65,5 @@ album3 = stworz_album("usher", "tytuł3")
 print(album1)
 print(album2)
 print(album3)
+
+# konflict
