@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5baec2-179b-4e8b-bbd2-f2d3ad4832fd" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/wsb_8_0_25/1_theory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsb_8_0_25/2_math.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsb_8_0_25/3_random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_podstawy_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_wait_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_wyszukiwanie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +47,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.10_test_figury.executor": "Run",
     "Python.2_math.executor": "Run",
     "Python.3_random.executor": "Run",
+    "Python.7_klasa.executor": "Run",
+    "Python.8_klasa_pies.executor": "Run",
     "Python.api_load_test.executor": "Run",
     "Python.api_tests.executor": "Run",
+    "Python.kalkulator.executor": "Run",
     "Python.locust_file.executor": "Run",
+    "Python.selenium_podstawy_1.executor": "Run",
+    "Python.selenium_wait.executor": "Run",
+    "Python.selenium_wait_2.executor": "Run",
+    "Python.selenium_wyszukiwanie.executor": "Run",
     "Python.testy_wydajnosci.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "wsb",
-    "last_opened_file_path": "D:/Workspace/project",
+    "last_opened_file_path": "D:/Workspace/project/wsb_22_03_25",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -66,7 +76,35 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\project\wsb_22_03_25" />
+      <recent name="D:\Workspace\project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.selenium_wait_2">
+    <configuration name="9_kalkulator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsb_8_02_25" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Workspace\project\wsb_8_02_25\9_kalkulator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="wsb_8_12_24" />
       <option name="ENV_FILES" value="" />
@@ -89,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="api_load_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="selenium_podstawy_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsb_12_01_25" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsb_22_03_25" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsb_12_01_25/api_load_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsb_22_03_25/selenium_podstawy_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="locust_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="selenium_wait" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,11 +158,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsb_12_01_25" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsb_22_03_25" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsb_12_01_25/locust_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsb_22_03_25/selenium_wait.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_wait_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsb_22_03_25" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsb_22_03_25/selenium_wait_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_wyszukiwanie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wsb_22_03_25" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsb_22_03_25/selenium_wyszukiwanie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,10 +261,20 @@
       <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.selenium_podstawy_1" />
+      <item itemvalue="Python.selenium_wait" />
+      <item itemvalue="Python.selenium_wait_2" />
+      <item itemvalue="Python.selenium_wyszukiwanie" />
+      <item itemvalue="Python.9_kalkulator" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.locust_file" />
-        <item itemvalue="Python.api_load_test" />
+        <item itemvalue="Python.selenium_wait_2" />
+        <item itemvalue="Python.selenium_wait" />
+        <item itemvalue="Python.selenium_wyszukiwanie" />
+        <item itemvalue="Python.selenium_podstawy_1" />
+        <item itemvalue="Python.9_kalkulator" />
       </list>
     </recent_temporary>
   </component>
