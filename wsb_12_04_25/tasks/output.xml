@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on win32)" generated="2025-04-12T12:23:51.844406" rpa="false" schemaversion="5">
+<suite id="s1" name="Var" source="D:\Workspace\project\wsb_12_04_25\tasks\var.robot">
+<test id="s1-t1" name="Test Zmiennej" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-04-12T12:23:51.886837" level="INFO">Uzytkownik: Ola</msg>
+<arg>Uzytkownik: ${USER}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-04-12T12:23:51.886573" elapsed="0.000346"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${USER}</arg>
+<arg>Ola</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2025-04-12T12:23:51.887286" elapsed="0.000230"/>
+</kw>
+<status status="PASS" start="2025-04-12T12:23:51.885493" elapsed="0.002350"/>
+</test>
+<status status="PASS" start="2025-04-12T12:23:51.846281" elapsed="0.042821"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Var" id="s1" pass="1" fail="0" skip="0">Var</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

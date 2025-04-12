@@ -1,0 +1,14 @@
+Automatyzacja testów webowych z SeleniumLibrary
+
+Keywords:
+Open Browser - otwiera wskazaną przeglądarkę i stronę URL
+Click Element - klika element znaleziony na stronie (link/przycisk)
+Input Text - wpisuje tekst do pola (input)
+Input Password - wpisuje test do pola, ale nie wpisuje tego w logach
+Element Should Be Visible/Page Should Contain - asercje do sprawdzenia czy element jest widoczny albo cczy strona zawiera dany tekst
+Close Browser - zamyka przeglądarkę
+
+Webdriver:
+Chrome - ChromeDriver
+Firefox - GeckDriver
+Edge - msedgeDriver

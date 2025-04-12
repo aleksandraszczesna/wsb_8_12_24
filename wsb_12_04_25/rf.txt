@@ -1,0 +1,24 @@
+*** Settings *** - sekcja ustawień (importujemy biblioteki, pliki zasobów, definicja dokumentacji)
+*** Variables *** - sekcja zmiennych (definicja zmiennych globalnych)
+*** Test Cases *** - sekcja, w której piszemy nasze przypadki testowe
+*** Keywords *** - sekcje, w której definiujemy własne słowa kluczowe (tj własne funkcje, które są złożone z innych keywords)
+
+Variables:
+*** Variables ***
+${USER_NAME}    test_user
+${PASSWORD}     Pa$$word
+@{}     - lista
+&{}     - słownik
+
+Keywords:
+1. Builtin - wbudowane keywords (np. Evaluate, Should Be Equal)
+2. Biblioteki - np SeleniumLibrary -> dostęp do Open Browser, biblioteka e-mail -> Send Email
+3. Własne keywords:
+*** Test Cases ***
+Test Powitania
+    Przywitaj użytkownika Marcin
+
+*** Keywords ***
+Przywitaj użytkownika
+    [Argument] ${imie}
+    Log Cześć, ${imie}! console=True     #log jest jak print - drukuje w konsoli
