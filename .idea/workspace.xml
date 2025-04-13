@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5baec2-179b-4e8b-bbd2-f2d3ad4832fd" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_podstawy_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_wait_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsb_22_03_25/selenium_wyszukiwanie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_12_04_25/api_tests/api_test.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_12_04_25/api_tests/delete.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_12_04_25/api_tests/post.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_12_04_25/api_tests/put.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_12_04_25/api_tests/query_param.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsb_12_04_25/api_tests/task.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +26,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -45,29 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.10_test_figury.executor": "Run",
-    "Python.2_math.executor": "Run",
-    "Python.3_random.executor": "Run",
-    "Python.7_klasa.executor": "Run",
-    "Python.8_klasa_pies.executor": "Run",
-    "Python.api_load_test.executor": "Run",
-    "Python.api_tests.executor": "Run",
-    "Python.kalkulator.executor": "Run",
-    "Python.locust_file.executor": "Run",
-    "Python.selenium_podstawy_1.executor": "Run",
-    "Python.selenium_wait.executor": "Run",
-    "Python.selenium_wait_2.executor": "Run",
-    "Python.selenium_wyszukiwanie.executor": "Run",
-    "Python.testy_wydajnosci.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "wsb",
-    "last_opened_file_path": "D:/Workspace/project/wsb_22_03_25",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.10_test_figury.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_math.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3_random.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7_klasa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8_klasa_pies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_load_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kalkulator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locust_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_podstawy_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_wait.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_wait_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_wyszukiwanie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testy_wydajnosci.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/answear_automation_tests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="project" is-module-sdk="true">
@@ -80,6 +83,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\project\wsb_22_03_25" />
       <recent name="D:\Workspace\project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\project\wsb_12_04_25" />
+      <recent name="D:\Workspace\project\wsb_12_04_25\first_test_robot" />
+      <recent name="D:\Workspace\project\wsb_12_04_25\porownanie_testow" />
+      <recent name="D:\Workspace\project\wsb_12_04_25\2" />
+      <recent name="D:\Workspace\project\wsb_12_04_25\1" />
     </key>
   </component>
   <component name="RunManager" selected="Python.selenium_wait_2">
@@ -262,11 +272,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.selenium_podstawy_1" />
-      <item itemvalue="Python.selenium_wait" />
-      <item itemvalue="Python.selenium_wait_2" />
-      <item itemvalue="Python.selenium_wyszukiwanie" />
       <item itemvalue="Python.9_kalkulator" />
+      <item itemvalue="Python.selenium_podstawy_1" />
+      <item itemvalue="Python.selenium_wait_2" />
+      <item itemvalue="Python.selenium_wait" />
+      <item itemvalue="Python.selenium_wyszukiwanie" />
     </list>
     <recent_temporary>
       <list>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on win32)" generated="2025-04-13T14:38:39.241328" rpa="false" schemaversion="5">
+<suite id="s1" name="Task" source="D:\Workspace\project\wsb_12_04_25\api_tests\task.robot">
+<test id="s1-t1" name="Pobranie użytkownika i sprawdzenie poprawność danych" line="7">
+<kw name="GET" owner="RequestsLibrary">
+<msg time="2025-04-13T14:38:39.879511" level="INFO">GET Request : url=https://jsonplaceholder.typicode.com/users/5 
+ path_url=/users/5 
+ headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2025-04-13T14:38:39.879810" level="INFO">GET Response : url=https://jsonplaceholder.typicode.com/users/5 
+ status=200, reason=OK 
+ headers={'Date': 'Sun, 13 Apr 2025 12:38:40 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744450248&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=hnXPNl1TSEeyWDjSPhppmF8FmUfrcIjTGFZbAHJiCoU%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1744450248&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=hnXPNl1TSEeyWDjSPhppmF8FmUfrcIjTGFZbAHJiCoU%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1744450297', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"1fb-gmS8Go1GsKpTWscwm+5AFpuro+k"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '14939', 'Server': 'cloudflare', 'CF-RAY': '92fb0596eda4c3fb-WAW', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400', 'server-timing': 'cfL4;desc="?proto=TCP&amp;rtt=10711&amp;min_rtt=10060&amp;rtt_var=5074&amp;sent=4&amp;recv=5&amp;lost=0&amp;retrans=0&amp;sent_bytes=2839&amp;recv_bytes=785&amp;delivery_rate=191237&amp;cwnd=217&amp;unsent_bytes=0&amp;cid=6036e48e564874e8&amp;ts=34&amp;x=0"'} 
+ body={
+  "id": 5,
+  "name": "Chelsey Dietrich",
+  "username": "Kamren",
+  "email": "Lucio_Hettinger@annie.ca",
+  "address": {
+    "street": "Skiles Walks",
+    "suite": "Suite 351",
+    "city": "Roscoeview",
+    "zipcode": "33263",
+    "geo": {
+      "lat": "-31.8129",
+      "lng": "62.5342"
+    }
+  },
+  "phone": "(254)954-1289",
+  "website": "demarco.info",
+  "company": {
+    "name": "Keebler LLC",
+    "catchPhrase": "User-centric fault-tolerant solution",
+    "bs": "revolutionize end-to-end systems"
+  }
+} 
+ </msg>
+<msg time="2025-04-13T14:38:39.880232" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>https://jsonplaceholder.typicode.com/users/5</arg>
+<doc>Sends a GET request.</doc>
+<status status="PASS" start="2025-04-13T14:38:39.804802" elapsed="0.075475"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-04-13T14:38:39.881671" level="INFO">${body} = {'id': 5, 'name': 'Chelsey Dietrich', 'username': 'Kamren', 'email': 'Lucio_Hettinger@annie.ca', 'address': {'street': 'Skiles Walks', 'suite': 'Suite 351', 'city': 'Roscoeview', 'zipcode': '33263', '...</msg>
+<var>${body}</var>
+<arg>${response.text}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-04-13T14:38:39.880765" elapsed="0.000954"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-04-13T14:38:39.882321" level="INFO">{'id': 5, 'name': 'Chelsey Dietrich', 'username': 'Kamren', 'email': 'Lucio_Hettinger@annie.ca', 'address': {'street': 'Skiles Walks', 'suite': 'Suite 351', 'city': 'Roscoeview', 'zipcode': '33263', 'geo': {'lat': '-31.8129', 'lng': '62.5342'}}, 'phone': '(254)954-1289', 'website': 'demarco.info', 'company': {'name': 'Keebler LLC', 'catchPhrase': 'User-centric fault-tolerant solution', 'bs': 'revolutionize end-to-end systems'}}</msg>
+<arg>${body}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-04-13T14:38:39.882105" elapsed="0.000285"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2025-04-13T14:38:39.882933" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${body}[id]</arg>
+<arg>5</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2025-04-13T14:38:39.882732" elapsed="0.000287"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${body}[username]</arg>
+<arg>Kamren</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2025-04-13T14:38:39.883378" elapsed="0.000251"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${body}[address][zipcode]</arg>
+<arg>33263</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2025-04-13T14:38:39.883960" elapsed="0.000235"/>
+</kw>
+<doc>Test pobiera dane użytkownika i weryfikuje poprawność danych</doc>
+<status status="PASS" start="2025-04-13T14:38:39.803663" elapsed="0.080925"/>
+</test>
+<doc>Pobranie użytkownika i sprawdzenie poprawność danych</doc>
+<status status="PASS" start="2025-04-13T14:38:39.243102" elapsed="0.642803"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Task" id="s1" pass="1" fail="0" skip="0">Task</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
